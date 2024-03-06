@@ -1,0 +1,14 @@
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 804px;
+  height: 524px;
+  overflow: hidden;
+}
+.frame-root {
+  width: 100%;
+  position: relative;
+  height: 524px;
+}

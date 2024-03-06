@@ -1,0 +1,479 @@
+.header {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-teal);
+}
+.logocontainer {
+  height: 98px;
+  width: 111px;
+  position: relative;
+  border-radius: var(--br-51xl);
+  background-color: var(--color-white);
+  display: none;
+}
+.logo-icon {
+  height: 90px;
+  width: 90px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.logo-frame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-2xs) var(--padding-9xs)
+    var(--padding-3xs);
+  background-color: var(--color-white);
+  border-radius: var(--br-51xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.navbar {
+  height: 90px;
+  width: 1004px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightgreen);
+  display: none;
+  max-width: 100%;
+}
+.map-store {
+  white-space: nowrap;
+}
+.about,
+.map-store {
+  position: relative;
+  z-index: 1;
+}
+.interactive-maps-frame,
+.previous-boundaries-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.previous-boundaries-frame {
+  width: 1004px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightgreen);
+  justify-content: space-between;
+  padding: var(--padding-11xl) 142px var(--padding-11xl) 584px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+.interactive-maps-frame {
+  align-self: stretch;
+  justify-content: flex-end;
+  margin-top: -94px;
+}
+.header-bar,
+.header-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.header-bar {
+  width: 1049px;
+  height: 98px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.header-parent {
+  width: 1060px;
+  height: 321px;
+  padding: 0 0 var(--padding-36xl);
+  box-sizing: border-box;
+  gap: 49px 0;
+  text-align: center;
+  font-size: var(--paragraph1-size);
+  color: var(--color-darkslategray);
+  font-family: var(--paragraph1);
+}
+.hero-section {
+  width: 498px;
+  height: 602px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-lightgreen);
+  display: none;
+  max-width: 100%;
+}
+.boundaries,
+.electoral,
+.explore-kenyas {
+  margin: 0;
+}
+.explore-kenyas-electoral-container {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 41px;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 1;
+}
+.previous-deli-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+}
+.interactive-maps-from {
+  margin: 0;
+}
+.constituencies,
+.counties,
+.wards {
+  margin-bottom: 0;
+}
+.counties-constituencies-wards {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 32px;
+}
+.interactive-maps-from-container {
+  height: 210px;
+  width: 408px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.previous-deli-frame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 29px 0 var(--padding-4xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--paragraph1-size);
+}
+.button1 {
+  height: 55px;
+  width: 186px;
+  position: relative;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-darkslategray);
+  display: none;
+}
+.get-map {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 30px;
+  position: relative;
+  font-size: var(--paragraph1-size);
+  font-family: var(--paragraph1);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.kenya-map-rectangle {
+  border-radius: var(--br-3xl);
+  background-color: var(--color-darkslategray);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 12px var(--padding-17xl) 13px 42px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.hero-section-parent {
+  flex: 0.8956;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-lightgreen);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-36xl) 26px 37px;
+  box-sizing: border-box;
+  gap: 61px 0;
+  min-width: 324px;
+  max-width: 100%;
+}
+.keny-map-1-icon,
+.mapcontainer {
+  position: relative;
+  max-width: 100%;
+}
+.mapcontainer {
+  align-self: stretch;
+  width: 499px;
+  background-color: var(--color-white);
+  display: none;
+}
+.keny-map-1-icon {
+  height: 602px;
+  flex: 1;
+  border-radius: 26px;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.footer-rectangle,
+.frame-parent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.footer-rectangle {
+  flex: 1;
+  background-color: var(--color-white);
+  align-items: center;
+  justify-content: center;
+  min-width: 324px;
+}
+.frame-parent {
+  width: 1039px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  gap: 0 42px;
+  text-align: left;
+  font-size: var(--mainhader-size);
+  color: var(--color-black);
+  font-family: var(--paragraph1);
+}
+.benefitscontainer {
+  height: 336px;
+  width: 1039px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-palegoldenrod);
+  display: none;
+  max-width: 100%;
+}
+.for-admistration-and,
+.touch-on-the {
+  margin: 0;
+}
+.text-benefits {
+  height: 60px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.text-benefits-frame,
+.tomaps {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.text-benefits-frame {
+  align-self: stretch;
+  height: 336px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-palegoldenrod);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 114px 124px;
+}
+.tomaps {
+  height: 698px;
+  width: 1039px;
+  position: relative;
+  background-color: var(--color-lightgreen);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkslategray);
+  flex-shrink: 0;
+  display: none;
+}
+.map1,
+.map4 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  z-index: 1;
+}
+.map-container {
+  align-self: stretch;
+  width: 323px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 25px 0;
+}
+.map2,
+.map5 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  z-index: 1;
+}
+.map-container1 {
+  align-self: stretch;
+  width: 323px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 25px 0;
+}
+.map3,
+.map6 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  z-index: 1;
+}
+.footer,
+.map-container2,
+.map-map-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.map-container2 {
+  align-self: stretch;
+  width: 323px;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: 25px 0;
+}
+.footer,
+.map-map-frame {
+  width: 1039px;
+  max-width: 100%;
+}
+.footer {
+  flex: 1;
+  background-color: var(--color-lightgreen);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  overflow-x: auto;
+  flex-direction: row;
+  padding: var(--padding-3xs) 7px var(--padding-2xs) 5px;
+  gap: 0 29px;
+}
+.map-map-frame {
+  height: 1098px;
+  flex-direction: column;
+  gap: 64px 0;
+  text-align: center;
+  font-size: var(--paragraph1-size);
+  color: var(--color-black);
+  font-family: var(--paragraph1);
+}
+.footer1 {
+  width: 1060px;
+  height: 390px;
+  position: relative;
+  background-color: var(--color-teal);
+  max-width: 100%;
+}
+.homepage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 21px;
+  box-sizing: border-box;
+  gap: 66px 0;
+  letter-spacing: normal;
+  z-index: unset;
+}
+@media screen and (max-width: 1100px) {
+  .previous-boundaries-frame {
+    display: none;
+  }
+  .map-map-frame {
+    gap: 32px 0;
+  }
+  .homepage {
+    gap: 33px 0;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .previous-boundaries-frame {
+    padding-left: 292px;
+    padding-right: 71px;
+    box-sizing: border-box;
+  }
+  .explore-kenyas-electoral-container {
+    font-size: 38px;
+    line-height: 33px;
+  }
+  .footer-rectangle,
+  .hero-section-parent {
+    flex: 1;
+  }
+  .frame-parent {
+    flex-wrap: wrap;
+  }
+  .text-benefits-frame {
+    padding-left: var(--padding-43xl);
+    padding-right: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .previous-boundaries-frame {
+    padding-left: 146px;
+    padding-right: 35px;
+    box-sizing: border-box;
+  }
+  .header-parent {
+    gap: 24px 0;
+  }
+  .hero-section-parent {
+    gap: 30px 0;
+    padding-top: var(--padding-17xl);
+    padding-bottom: 24px;
+    box-sizing: border-box;
+  }
+  .frame-parent {
+    gap: 0 21px;
+  }
+  .text-benefits-frame {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .homepage,
+  .map-map-frame {
+    gap: 16px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .previous-boundaries-frame {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .explore-kenyas-electoral-container {
+    font-size: 29px;
+    line-height: 25px;
+  }
+  .interactive-maps-from-container,
+  .text-benefits {
+    font-size: var(--font-size-lgi);
+  }
+}
